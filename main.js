@@ -558,14 +558,14 @@ function openFacebook() {
     console.log('📱 Abriendo Facebook...');
     if (isMobile()) {
         // Intenta abrir la app de Facebook primero
-        window.location.href = 'fb://page/100063541459262';
+        window.location.href = 'https://www.facebook.com/414486841753095';
         // Fallback a la web después de un timeout
         setTimeout(() => {
-            window.open('https://www.facebook.com/profile.php?id=100063541459262', '_blank');
+            window.open('https://www.facebook.com/profile.php?id=61566380133969', '_blank');
         }, 1000);
     } else {
         // En desktop, abre la web directamente
-        window.open('https://www.facebook.com/profile.php?id=100063541459262', '_blank');
+        window.open('https://www.facebook.com/profile.php?id=61566380133969', '_blank');
     }
 }
 
