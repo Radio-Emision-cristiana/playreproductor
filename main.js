@@ -606,7 +606,7 @@ function openGmail() {
     console.log('📱 Abriendo Gmail...');
     if (isMobile()) {
         // En móvil, usa mailto para abrir la app de correo predeterminada
-        window.location.href = 'mailto:?subject=Reproductor Radio&body=¡Escucha nuestra radio en vivo!';
+        window.location.href = 'mailto:radioemisioncristiana@gmail.com=Reproductor Radio&body=¡Escucha nuestra radio en vivo!';
     } else {
         // En desktop, abre Gmail web
         window.open('https://mail.google.com/', '_blank');
